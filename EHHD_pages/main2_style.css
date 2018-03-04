@@ -1,0 +1,538 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: EmScript;
+    src: url(Fonts/AlexBrush-Regular.ttf);
+}
+
+* {
+	box-sizing: border-box;
+}
+@media (min-width : 0px ) and (max-width : 720px ) and (orientation: portrait){
+	
+body{
+	background-image: url(Graphics/blackbgrs.png);
+	background-repeat: no-repeat;
+}
+
+#bigServices{
+	display: none;
+}
+#bigReqForm{
+	display: none;
+}
+
+#Logo img{
+	height: 100px;
+}
+
+#Logo{
+	height: 100px;
+	text-align: center;
+}
+
+#topBanner {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	font-family: EmScript;
+	
+}
+
+#topBanner h3{
+	position: relative;
+	top: -15px
+}
+
+#topBanner p{
+	position: relative;
+	top: -15px;
+	color: #806600;
+}
+
+#subBanner{
+	border: 2px dotted white;
+	height: 10%;
+	width: auto;
+	color: white;
+	font-family: EmScript;
+	text-align: center;
+	font-size: 18px;
+	position: relative;
+	top: -20px;
+}
+#slideshow{
+	height: 300px;
+	
+}
+
+#slideshow img{
+	width: auto;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#reqButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+}
+
+#servButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+	margin-top: 20px;
+}
+.Social {
+	position: relative;
+	text-align: center;
+}
+.Social li{
+	display: inline-block;
+}
+
+.Social div{
+	position: relative;
+	color: white;
+	right: 20px;
+	top: 10px;
+	text-align: center;
+}
+
+
+
+
+}
+@media (min-width : 300px ) and (max-width : 720px ) and (orientation: landscape){
+	
+body{
+	background-image: url(Graphics/blackbgrs.png);
+	background-repeat: no-repeat;
+}
+
+#bigServices{
+	display: none;
+}
+#bigReqForm{
+	display: none;
+}
+
+#Logo img{
+	height: 100px;
+}
+
+#Logo{
+	height: 100px;
+	text-align: center;
+}
+
+#topBanner {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	font-family: EmScript;
+	
+}
+
+#topBanner h3{
+	position: relative;
+	top: -15px
+}
+
+#topBanner p{
+	position: relative;
+	top: -15px;
+	color: #806600;
+}
+
+#subBanner{
+	border: 2px dotted white;
+	height: 10%;
+	width: auto;
+	color: white;
+	font-family: EmScript;
+	text-align: center;
+	font-size: 18px;
+	position: relative;
+	top: -20px;
+}
+#slideshow{
+	height: 300px;
+	
+}
+
+#slideshow img{
+	width: auto;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#reqButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+}
+
+#servButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+	margin-top: 20px;
+}
+.Social {
+	position: relative;
+	text-align: center;
+}
+.Social li{
+	display: inline-block;
+}
+
+.Social div{
+	position: relative;
+	color: white;
+	right: 20px;
+	top: 10px;
+	text-align: center;
+}
+
+
+
+
+}
+@media (min-width : 721px ) and (max-width : 1000px ){
+	body{
+	background-image: url(Graphics/blackbgrs.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bigServices{
+	display: none;
+}
+#bigReqForm{
+	display: none;
+}
+
+#Logo img{
+	height: 200px;
+}
+
+#Logo{
+	height: 200px;
+	text-align: center;
+}
+
+#topBanner {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	font-family: EmScript;
+	font-size: 32px;
+	
+}
+
+#topBanner h3{
+	position: relative;
+	top: -15px
+}
+
+#topBanner p{
+	position: relative;
+	top: -15px;
+	color: #806600;
+}
+
+#subBanner{
+	border: 2px dotted white;
+	height: 10%;
+	width: auto;
+	color: white;
+	font-family: EmScript;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: -20px;
+}
+#slideshow{
+	height: 600px;
+	width: 100%;
+	
+}
+
+#slideshow img{
+	width: auto;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#reqButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+}
+
+#servButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+	margin-top: 20px;
+}
+.Social {
+	position: relative;
+	text-align: center;
+}
+.Social li{
+	display: inline-block;
+}
+
+.Social div{
+	position: relative;
+	color: white;
+	right: 20px;
+	top: 10px;
+	text-align: center;
+}
+
+
+
+
+}
+@media (min-width : 721px ) and (max-width : 1000px ) and (orientation: landscape){
+	body{
+	background-image: url(Graphics/blackbgrs.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bigServices{
+	display: none;
+}
+#bigReqForm{
+	display: none;
+}
+
+#Logo img{
+	height: 200px;
+}
+
+#Logo{
+	height: 200px;
+	text-align: center;
+}
+
+#topBanner {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	font-family: EmScript;
+	font-size: 32px;
+	
+}
+
+#topBanner h3{
+	position: relative;
+	top: -15px
+}
+
+#topBanner p{
+	position: relative;
+	top: -15px;
+	color: #806600;
+}
+
+#subBanner{
+	border: 2px dotted white;
+	height: 10%;
+	width: auto;
+	color: white;
+	font-family: EmScript;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: -20px;
+}
+#slideshow{
+	height: 600px;
+	width: 100%;
+	
+}
+
+#slideshow img{
+	width: auto;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#reqButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+}
+
+#servButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+	margin-top: 20px;
+}
+.Social {
+	position: relative;
+	text-align: center;
+}
+.Social li{
+	display: inline-block;
+}
+
+.Social div{
+	position: relative;
+	color: white;
+	right: 20px;
+	top: 10px;
+	text-align: center;
+}
+
+
+
+
+}
+@media (min-width : 1001px ){
+	body{
+	background-size: cover;
+	background-image: url(Graphics/blackbg.jpg);
+	background-repeat: no-repeat;
+}
+
+#Logo img{
+	height: 200px;
+}
+
+#Logo{
+	height: 200px;
+	text-align: center;
+}
+
+#topBanner {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	font-family: EmScript;
+	font-size: 25px;
+	
+}
+
+#topBanner h3{
+	position: relative;
+	top: -15px
+}
+
+#topBanner p{
+	position: relative;
+	top: -15px;
+	color: #806600;
+}
+
+#subBanner{
+	border: 2px dotted white;
+	height: 20%;
+	width: auto;
+	color: white;
+	font-family: EmScript;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	top: -20px;
+}
+#slideshow{
+	height: 600px;
+	width: 32%;
+	display: inline-block;
+	position: relative;
+	left:33.3%;
+	margin: 10px;
+}
+
+#slideshow img{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: 570px;
+	display:inline-block;
+	margin: 0 auto;
+}
+
+#reqButton{
+	display: none;
+	text-align: center;
+	height: 100px;
+	width: auto;
+}
+
+#servButton{
+	text-align: center;
+	height: 100px;
+	width: auto;
+	margin-top: 20px;
+	display: none;
+}
+
+#bigServices {
+	position: relative;
+	bottom: 613px;
+	display: inline-block;
+	border: 2px dotted white;
+	height: 570px;
+	width: 33%;
+	float: left;
+}
+
+#bigReqForm{
+	position: relative;
+	height: 570px;
+	border: 2px dotted white;
+	width: 33%;
+	bottom: 613px;
+	float: right;
+	text-align: center;
+}
+
+form{
+	font-family: EmScript;
+	color: white;
+}
+.Social {
+	position: relative;
+	text-align: center;
+	left: 20px;
+}
+.Social li{
+	display: inline-block;
+}
+
+.Social div{
+	position: relative;
+	color: white;
+	right: 20px;
+	top: 10px;
+	text-align: center;
+}
+
+
+
+
+}

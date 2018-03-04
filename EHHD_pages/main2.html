@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main2_style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emily Hattaway Hair Design</title>
+</head>
+<body>
+<div id="Logo">
+<img src="Graphics/shears.png" alt="Logo"/>
+</div>
+<div id="topBanner">
+<h3>Emily Hattaway Hair Design</h3>
+<p>--More Good Hair Days--</p>
+<p style="font-family: EmScript; color: white;">800-000-0000</p>
+</div>
+<div id="subBanner">
+<p>Cut, Color, and Style. Serving the Milton/Pensacola area! Check in regularly for deals and updates! Appointments Available!</p>
+</div>
+<div id="slideshow">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage1.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage2.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage3.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage4.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage5.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage6.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage7.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage8.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage9.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage10.jpg" alt="sample photo">
+<img style="height=100%; width=100%" class="mySlides" src="Slides/adimage11.jpg" alt="sample photo">
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+</div>
+<br>
+<div id="reqButton"> 
+<a href="requestform.html" ><img src="Graphics/request_button.png" alt="Request An Appointment"></a>
+</div>
+<div id="servButton"> 
+<a href="services.html"><img src="Graphics/service_button.png" alt="Services and Prices"></a>
+</div>
+<div id="bigServices">
+<h1 style="font-family: EmScript; color: white; text-align: center;">Services and Prices</h1>
+<ul id="bigPrices" style="color: white; font-family:EmScript; text-align: center; list-style-position: inside; position: relative; right: 20px; font-size: 20px;">
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+</div>
+<div id="bigReqForm">
+<h1 style="text-align: center; font-family: EmScript; color: white;">Request An Appointment</h1>
+<form method="post" action="fHandler.php">
+<span style="color: white; font-size: 24px;">Name:</span><br>
+<input type="text" name="fName"><br><br>
+<span style="color: white; font-size: 24px;">Phone:</span><br>
+<input type="tel" name="pNumber"><br><br>
+<span style="color: white; font-size: 24px;">Email:</span><br>
+<input type="email" name="emailAddr"><br><br>
+<span style="color: white; font-size: 24px;">Comments:</span><br>
+<input type="text" name="comments" size="50"><br><br>
+<input id="submission" type="submit" value="Submit">
+</form>
+</div>
+<ul class="Social">
+<li><div><a href=""><img src="Graphics/instaglyph.png" height="50px" alt="Check us out on Instagram"></a></div></li>
+<li><div><a href="https://www.facebook.com/hattawayhair/"><img src="Graphics/facebooklogo.png" height="50px" alt="Visit Us On Facebook"></a></div></li>
+</ul>
+<br>
+<br>
+<p style="color: Red; font-size:15px; text-align: center; font-style: italic;">JQAutomation 2017</p>
+</body>
+</html>

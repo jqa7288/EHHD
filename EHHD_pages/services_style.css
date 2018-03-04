@@ -1,0 +1,47 @@
+@charset "utf-8";
+@font-face {
+    font-family: EmScript;
+    src: url(Fonts/AlexBrush-Regular.ttf);
+}
+
+* {
+	box-sizing: border-box;
+}
+	
+	body{
+	background-image: url(Graphics/blackbgrs.png);
+	background-repeat: no-repeat;
+}
+	
+	h1{
+		font-size: 60px;
+		
+	}
+	#serviceList{
+		list-style: inside;
+		border: 2px dotted white;
+		color: white;
+		font-family: EmScript;
+		font-size: 35px;
+		text-align: center;
+		
+	}
+	
+	ul{
+		position: relative;
+		right: 25px;
+		color: white;
+		text-align: center;
+		list-style-position: inside;
+	}
+	
+	#backer{
+	font-family: EmScript; color: white; text-align: center; font-size: 35px; position: relative; top: 100px; left: 140px;
+}
+@media (min-width : 500px ){	
+body{
+	background-size: cover;
+}
+
+
+}
